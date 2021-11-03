@@ -1,0 +1,94 @@
+       #container {
+        width: 90%;  /* 宽度是屏幕宽的90% */
+        margin: 0 auto;  /* 居中对齐 */
+        background-color: #fff;
+        border: 1px solid gray;
+        color: #333;
+        line-height:130%;
+      }
+      #top {
+        padding: .5em;  /* 间距是半个字高 */
+        background-color:#808080;
+        border-bottom: 1px solid gray;  /* 底线 */
+      }
+      #top h1 {  /* 清除缺省边距和间距值 */
+        padding: 0;
+        margin: 0;
+      }
+      #leftnav {
+        width: 160px;
+        margin: 0;
+        padding: 1em;
+        background-color:#FAF9DE;
+        float: left;
+      }
+      #leftnav p { margin: 0 0 1em 0; }
+
+      #content {
+        margin-left: 200px;
+        border-left: 1px solid gray;
+        padding:1em;
+        max-width:40em; /* 最大宽度是40个字高 */
+background-color:#FAF9DE;
+      }
+      #content h2 { margin: 0 0 .5em 0; }
+
+        #content2 {
+        margin-left: 200px;;
+        border-left: 1px solid gray;
+        background-color:#FAF9DE;
+        padding:1em;
+        max-width:40em; /* 最大宽度是40个字高 */
+}
+      #content2 h2 { margin: 0 0 .5em 0; }
+
+      #content2 li{
+list-style:none;
+}
+
+#content2 li a{
+text-decoration:none;
+color:black;
+}
+
+#content2 li a:hover{
+text-decoration:none;
+color:blue;
+}
+#content2 li a:hover{
+text-decoration:none;
+color:blue;
+}
+      #footer {
+        clear: both;
+        margin: 0;
+        padding: .5em;
+        color: #333;
+        background-color: #ddd;
+        border-top: 1px solid gray;
+        background-color:#FAF9DE;
+      }
+      #footer p { margin:0; padding:0}
+
+#menu-link {
+background-image : url(images/menu-sep.gif);
+height : 30px;
+line-height : 30px;
+background-position : right;
+background-repeat : no-repeat;
+padding-left : 7px;
+padding-right : 14px;
+padding-top : 6px;
+padding-bottom : 6px;
+font-family : tahoma;
+font-size : 15px;
+color : #ffffff;
+text-decoration : none;
+font-weight : bold;
+}
+#menu-link:hover {
+background-image : url(i/menu-bg_hover.gif);
+background-position : center;
+background-repeat : repeat-x;
+color : #ffe7cf;
+}
